@@ -179,6 +179,9 @@ main {
     margin: 0 auto;
   }
 
+  h2 {
+    font-size: 2.5rem;
+  }
   .parents-container > *,
   .sim > * {
     display: grid;
