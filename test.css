@@ -182,6 +182,10 @@ main {
   h2 {
     font-size: 2.5rem;
   }
+
+  p {
+    font-size: 1.4rem;
+  }
   .parents-container > *,
   .sim > * {
     display: grid;
