@@ -82,13 +82,6 @@ main {
   border-radius: 8px;
 }
 
-/*
-.elements {
-  border: 1px solid brown;
-  border-radius: 10px;
-}
-*/
-
 .green {
   background-color: var(--darkPurple);
   display: flex;
