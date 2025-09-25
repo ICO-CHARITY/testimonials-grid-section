@@ -82,13 +82,6 @@ main {
   border-radius: 8px;
 }
 
-/*
-.elements {
-  border: 1px solid brown;
-  border-radius: 10px;
-}
-*/
-
 .green {
   background-color: var(--darkPurple);
   display: flex;
@@ -174,14 +167,15 @@ main {
   gap: 1rem;
 }
 
-@media (min-width: 756px) {
+@media (min-width: 768px) {
   .parents-container {
     display: grid;
-    grid-template-columns: 2fr 1fr 1fr;
+    grid-template-columns: 2fr 1fr;
     gap: 1.5rem;
     grid-template-areas:
-      "col1 col2 col3"
-      "col4 col4 col3";
+      "col1 col2 "
+      "col3 col3 "
+      "col4 col4";
     margin: 0 auto;
   }
 
@@ -214,5 +208,16 @@ main {
 
   .column5 {
     grid-area: col5;
+  }
+}
+
+@media (min-width: 1024px) {
+  .parents-container {
+    grid-template-columns: 2fr 1fr 1fr;
+    gap: 1.5rem;
+    grid-template-areas:
+      "col1 col2 col3"
+      "col4 col4 col3";
+    margin: 0 auto;
   }
 }
